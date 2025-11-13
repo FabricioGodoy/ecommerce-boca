@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Dependencias
 
-NextJS [Documentación](https://nextjs.org/docs)
+NextJS [Documentación](https://nextjs.org/docs) /
 MantineUI [Components](https://mantine.dev/core/package/)
 MantineUI Form [Documentación](https://mantine.dev/form/package/)
 MantineUI Carousel [Documentación](https://mantine.dev/x/carousel/)
