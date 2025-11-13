@@ -2,15 +2,15 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Dependencias
 
-NextJS [Documentación](https://nextjs.org/docs)
-MantineUI [Components](https://mantine.dev/core/package/)
-MantineUI Form [Documentación](https://mantine.dev/form/package/)
-MantineUI Carousel [Documentación](https://mantine.dev/x/carousel/)
-MantineUI Dates [Documentación](https://mantine.dev/dates/getting-started/)
-MantineUI Dropzone [Documentación](https://mantine.dev/x/dropzone/)
-MantineUI Hooks [Documentación](https://mantine.dev/hooks/package/)
-MantineUI Modals [Documentación](https://mantine.dev/x/modals/)
-Mynaui Icons [Listado](https://mynaui.com/icons)
+NextJS [Documentación](https://nextjs.org/docs) \
+MantineUI [Components](https://mantine.dev/core/package/) \
+MantineUI Form [Documentación](https://mantine.dev/form/package/) \
+MantineUI Carousel [Documentación](https://mantine.dev/x/carousel/)\
+MantineUI Dates [Documentación](https://mantine.dev/dates/getting-started/)\
+MantineUI Dropzone [Documentación](https://mantine.dev/x/dropzone/)\
+MantineUI Hooks [Documentación](https://mantine.dev/hooks/package/)\
+MantineUI Modals [Documentación](https://mantine.dev/x/modals/)\
+Mynaui Icons [Listado](https://mynaui.com/icons)\
 DayJs [Documentación](https://day.js.org/docs/en/parse/now)
 
 
