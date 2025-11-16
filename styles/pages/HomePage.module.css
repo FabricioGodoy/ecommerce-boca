@@ -1,0 +1,9 @@
+.homeContainer{
+    min-height: 100dvh;
+    padding-inline: 0px;
+}
+
+.carousel{
+    height: calc(100dvh - 60px);
+    display: flex;
+}
