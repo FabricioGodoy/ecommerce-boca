@@ -15,17 +15,17 @@ const primaryTitular: MantineColorsTuple = [
 
 
 const primaryOro: MantineColorsTuple = [
- "#fffce3",
-  "#fcf8cf",
-  "#f8efa2",
-  "#f5ea84",
-  "#f0df47",
-  "#eeda2c",
-  "#edd81c",
-  "#d2bf0b",
-  "#baaa00",
-  "#a09200"
-];
+  "#fff9e3",
+  "#fbf1d0",
+  "#f5e1a5",
+  "#efd075",
+  "#e9c24d",
+  "#e6b933",
+  "#e5b525",
+  "#cb9e15",
+  "#b58c0b",
+  "#9c7800"
+]
 
 export const theme = createTheme({
     primaryColor: 'primaryTitular',
