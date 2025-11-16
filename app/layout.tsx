@@ -1,29 +1,28 @@
 // Import styles of packages that you've installed.
 // All packages except `@mantine/hooks` require styles imports
 import '@mantine/core/styles.css';
-
-import { Footer } from '@/components/Footer';
+import '@mantine/carousel/styles.css';
+import { Footer } from '@/components/footer/Footer';
 import { ColorSchemeScript, mantineHtmlProps, MantineProvider } from '@mantine/core';
 import { theme } from '@/components/ui/theme/ThemeProvider';
+import Shell from '@/components/navBar/Shell';
 
 export const metadata = {
-  title: 'My Mantine app',
-  description: 'I have followed setup instructions carefully',
+  title: 'VagoXeneize',
+  description: 'Indumentaria bostera',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children, }: { children: React.ReactNode; }) {
   return (
     <html lang="es" {...mantineHtmlProps}>
       <head>
-        <ColorSchemeScript />
+        <ColorSchemeScript/>
       </head>
       <body>
-        <MantineProvider theme={theme}>
-          {children}
+        <MantineProvider theme={theme} forceColorScheme='light' defaultColorScheme='light'>
+          <Shell>
+            {children}
+          </Shell>
           <Footer/>
         </MantineProvider>
       </body>

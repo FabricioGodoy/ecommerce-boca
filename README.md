@@ -20,6 +20,13 @@ npm i
 ```
 
 ## Desarrollo
+Archivo de variables de entorno
+El archivo .env debe ir en la carpeta raiz y contar con los siguientes elementos:
+```bash
+STORE_NAME
+```
+
+
 Correr servidor de desarrollo:
 
 ```bash
