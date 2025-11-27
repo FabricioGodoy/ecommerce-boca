@@ -5,6 +5,15 @@ const nextConfig: NextConfig = {
   env: {
     STORE_NAME: process.env.STORE_NAME,
   },
+  async redirects() {
+    return [
+      {
+        source: '/admin',
+        destination: '/admin/home',
+        permanent: true,
+      },
+    ]
+  },
 };
 
 export default nextConfig;

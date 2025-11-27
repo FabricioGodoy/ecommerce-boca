@@ -1,0 +1,10 @@
+.admin_layout_container{
+    border:1px solid #03030317;
+    min-height: 70dvh;
+    margin-top: 50px;
+    width: 99dvw;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 20px;
+}

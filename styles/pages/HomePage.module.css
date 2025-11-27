@@ -33,19 +33,17 @@
 }
 
 .new_products_section{
-    padding-left: 2rem;
-    padding-right: 2rem;
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     gap:2rem
 }
+
 .new_products_container{
-    padding-left: 2rem;
     width: 100%;
     flex-wrap: wrap;
-    padding-right: 2rem;
-    gap:1rem;
+    gap:1.2rem;
+    row-gap: 3rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,6 +55,7 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
 .categories_square{
     flex: 1;
     width: 100%;
@@ -108,6 +107,8 @@
 @media (min-width: 1110px) {
     .new_products_container {
         justify-content: flex-start;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 
     .categories_square{

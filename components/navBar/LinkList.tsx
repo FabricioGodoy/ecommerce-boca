@@ -28,6 +28,7 @@ const LinkList = () => {
                 Iniciar sesión
             </Button>
         </div>
+            
     )
 }
 
