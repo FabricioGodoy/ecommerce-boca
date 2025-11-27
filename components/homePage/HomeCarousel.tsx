@@ -1,10 +1,9 @@
-import { Carousel, CarouselSlide } from '@mantine/carousel'
+import { Carousel } from '@mantine/carousel'
 import boca from '@public/images/VAGOS/IMG_3990.png'
 import primera from '@public/images/VAGOS/IMG_4411.png'
 import segunda from '@public/images/VAGOS/IMG_4260.png'
-import {Image} from '@mantine/core'
 import styles from '@styles/pages/HomePage.module.css'
-import NextImage from 'next/image';
+import CarouselImage from './CarouselImage'
 const HomeCarousel = () => {
 
     return (
@@ -19,33 +18,17 @@ const HomeCarousel = () => {
                 withControls
                 withIndicators={true}
             >
-                <CarouselSlide>
-                    <Image
-                        component={NextImage}
-                        src={primera}
-                        alt='boke'
-                        fit='cover'
-                        h={'100dvh'}
-                    />
-                </CarouselSlide>
-                <CarouselSlide>
-                    <Image
-                        component={NextImage}
-                        src={boca}
-                        alt='boke'
-                        fit='cover'
-                        h={'100dvh'}
-                    />
-                </CarouselSlide>
-                <CarouselSlide>
-                    <Image
-                        component={NextImage}
-                        src={segunda}
-                        alt='boke'
-                        fit='cover'
-                        h={'100dvh'}
-                    />
-                </CarouselSlide>
+                <CarouselImage
+                    imageSrc={primera}
+                    imageLink='/product/123'
+                    imageText='Remera boca'
+                />
+                <CarouselImage
+                    imageSrc={boca}
+                />
+                <CarouselImage
+                    imageSrc={segunda}
+                />
             </Carousel>
         </div>
     )
