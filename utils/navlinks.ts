@@ -5,28 +5,51 @@ export const navigationLinks: NavLink[] = [
     {
         name:'Inicio',
         link:'/',
-        adminAccess: true,
-        children: null,
-        functionality: null
-    },
-    {
-        name:'Dashboard',
-        link:'/dashboard',
-        adminAccess: true,
         children: null,
         functionality: null
     },
     {
         name:'Productos',
         link:'/products',
-        adminAccess: false,
         children: null,
         functionality: null
     },
     {
         name:'Promociones',
         link:'/promotions',
-        adminAccess: false,
+        children:null,
+        functionality: null
+    },
+]
+
+export const adminLinks: NavLink[] = [
+    {
+        name:'Dashboard',
+        link:'/admin/home',
+        children: null,
+        functionality: null
+    },
+    {
+        name:'Productos',
+        link:'/admin/products',
+        children: null,
+        functionality: null
+    },
+    {
+        name:'Ofertas',
+        link:'/admin/offers',
+        children: null,
+        functionality: null
+    },
+    {
+        name:'Ventas',
+        link:'/admin/sales',
+        children:null,
+        functionality: null
+    },
+    {
+        name:'Usuarios',
+        link:'/admin/users',
         children:null,
         functionality: null
     },

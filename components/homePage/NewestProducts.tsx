@@ -6,7 +6,7 @@ import { Text } from '@mantine/core'
 const NewestProducts = () => {
     return (
         <div className={styles.new_products_section}>
-            <Text size='xl' fw={600}>Lo nuevo</Text>
+            <Text size='xl' fw={600} pl={'1rem'}>Lo nuevo</Text>
             <div className={styles.new_products_container}>
                 <ProductCard/>
                 <ProductCard/>

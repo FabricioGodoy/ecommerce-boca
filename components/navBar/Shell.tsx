@@ -7,6 +7,7 @@ import logo from '@public/images/logo.png'
 import styles from '@styles/Shell.module.css'
 import LinkList from './LinkList';
 import MobileLinkList from './MobileLinkList';
+import AdminLinkList from './AdminLinkList';
 
 const Shell = ({children}: { children: React.ReactNode }) => {
 
@@ -36,8 +37,9 @@ const Shell = ({children}: { children: React.ReactNode }) => {
                     hiddenFrom="sm"
                     size="sm"
                 />
-
-        </AppShellHeader>
+                
+                <AdminLinkList/>
+            </AppShellHeader>
         <MobileLinkList/>
         <AppShellMain className={styles.main}>
             {children}
